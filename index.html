@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header id = "toolbar">
+        <div id = "generateArray"> 
+            Generate New Array 
+        </div>
+    
+        <div class = "arraySize">
+            Array Size 
+        </div>
+        
+        <input id="slider" type="range" min=5 max=100 step=1 value=20>
+        
+        <div id = "sortingSpeed">
+            Sorting Speed
+        </div>
+        
+        <input id="slider1" type="range" min=1 max=5 step=1 value=3>
+        
+        <div class = "sortingAlgorithms">
+            <button id="dropbtn">Sorting Algorithm</button>
+            <div class="dropdownContent" id = "dropContent">
+                <div class = "algos">Bubble Sort</div>
+                <div class = "algos">Selection Sort</div>
+                <div class = "algos">Insertion Sort</div>
+                <div class = "algos">Merge Sort</div>
+                <div class = "algos">Quick Sort</div>
+                <div class = "algos">Heap Sort</div>
+            </div>
+        </div>
+        <div id = "sort">
+            Sort
+        </div>
+    
+    </header>
+
+    <div id="arrayContainer"></div>   
+    
+    <footer class ="footer">Sorting Algorithms Visualizer</footer>
+
+    <script src="./scripts/main.js"></script>   <!--This should be at the end of body and should be loaded before sorts.js-->
+    <script src="./scripts/visualizations.js"></script>  <!--This should be loaded after main.js-->
+    <script src="./scripts/bubble_sort.js"></script>
+    <script src="./scripts/selection_sort.js"></script>
+    <script src="./scripts/insertion_sort.js"></script>
+    <script src="./scripts/merge_sort.js"></script>
+    <script src="./scripts/quick_sort.js"></script>
+    <script src="./scripts/heap_sort.js"></script>
+    
+</body>
+    
+</html>
