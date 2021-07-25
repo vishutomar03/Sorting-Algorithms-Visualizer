@@ -15,5 +15,6 @@ Helps to
 Features
 
 - Sort any given array
-- Alter the speed of execution
-- Generate random array of numbers of sorting
+- Alter the speed of sorting 
+- Generate random array of numbers
+- Change the size of an array 
