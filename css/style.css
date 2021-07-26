@@ -1,0 +1,170 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-size: 16px;
+    font-family: monospace;
+    
+}
+body{
+    background-color:rgb(230, 230, 230);
+}
+#toolbar {
+    width: 100%;
+    height: 100px;
+    background-color: #34495e;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+#generateArray {        
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 25px;
+    color:white;
+    cursor: pointer;
+}
+
+#generateArray:hover {
+    color: rgb(212, 212, 212);
+}
+
+.arraySize {
+    display: inline-block;
+    margin-left: 45px;
+    margin-right: 15px;
+    color: white;
+}
+
+#sortingSpeed {
+    display: inline-block;
+    margin-left: 35px;
+    margin-right: 15px;
+    color: white;
+}
+
+.currentAlgorithmButton {
+    color: rgb(241, 94, 255);
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.sortingAlgorithms{
+    display: inline-block;
+    color: white;
+    margin-left: 65px;
+    cursor: pointer;
+}
+
+#dropbtn {
+    background-color: #34495e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #34495e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.algos{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.sortingAlgorithms:hover .dropdownContent {
+  display:block;  
+}
+
+.dropbtn:hover{
+    color: rgb(212, 212, 212);
+}
+
+.algos:hover{
+    background-color: white;
+    color: #34495e;
+    font-weight: bold;
+}
+
+#arrayContainer{   
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width:60%;
+    height: 80vh;
+    position: absolute;
+    left: 280px;
+}
+
+#sort {
+    display: inline-block;
+    margin-left: 65px;
+    color:white;
+    cursor: pointer;
+}
+
+#sort:hover {
+    color: rgb(212, 212, 212);
+}
+
+.butt_locked {
+    cursor: default;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 25px;
+    color: rgb(212, 212, 212);
+}
+
+.sortButton{
+    margin-left: 65px;
+}
+
+.butt_selected {
+    background-color: white;
+    color: green;
+}
+
+.butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.blocks{
+    color: white;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+    cursor: default;
+    
+}
+
+.footer {
+    box-sizing: border-box;
+    min-height: 64px;
+    font-family: Merriweather Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    width: 96%;
+    padding: 1rem 20px;
+    position: absolute;    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    word-spacing: .25rem;
+    background-color: var(--background-color-2);
+    box-shadow: 0 -2px 1px -1px rgb(0 0 0 / 20%);
+    -webkit-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+    bottom: 10px;
+    left:20px;
+}
