@@ -1,6 +1,6 @@
 function Insertion()
 {
-    c_delay=0;
+    c_delay = 0;
 
     for(var j = 1; j < array_size; j++)
     {
