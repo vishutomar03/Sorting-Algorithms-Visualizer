@@ -35,7 +35,7 @@ function Insertion()
             div_update(divs[t], div_sizes[t], "rgb(128 178 240)"); // Color update
         }
     }
-    div_update(divs[j-1],div_sizes[j-1],"rgb(128 178 240)"); // Color update
+    div_update(divs[j-1], div_sizes[j-1], "rgb(128 178 240)"); // Color update
 
     enable_buttons();  // Calling function for enabling buttons 
 }
