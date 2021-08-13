@@ -18,3 +18,4 @@ Features
 - Alter the speed of sorting 
 - Generate random array of numbers
 - Change the size of an array 
+
